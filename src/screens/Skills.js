@@ -1,13 +1,17 @@
 import React from 'react';
-import './skills'
+import './Skills.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 
 function Skills() {
   return (
-  <div className='skills'>
-      <div id="skills" class="parallax-container valign-wrapper">
-
-      </div>
-  </div>
+  <div className='skills' id = 'skills'>
+<div className='skills_background'/>
+<div className='skills_logos'>
+<h1>HELLO</h1>
+</div>
+</div>
+      
+ 
   )
 }
 

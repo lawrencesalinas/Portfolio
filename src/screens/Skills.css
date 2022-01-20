@@ -1,0 +1,21 @@
+.skills {
+  height: 100vh;
+  width: 100vw;
+}
+.skills_background {
+    position: relative;
+  background: url("/public/img/ny.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  height: 100vh;
+  margin: 0 auto;
+  width: 100vw;
+  z-index: -1;
+}
+
+.skills_logos {
+ position: absolute;
+}

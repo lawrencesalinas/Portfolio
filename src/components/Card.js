@@ -1,5 +1,6 @@
 import React from 'react'
 import './Card.css'
+import {Button} from '@mui/material'
 
 
 function Card({ src, title, description, price}) {
@@ -10,7 +11,9 @@ function Card({ src, title, description, price}) {
                 <h2>{title}</h2>
                 <h4>{description}</h4>
                 <h3>{price}</h3>
-
+             
+                <Button className = 'git' variant='outlined'>GITHUB </Button>
+                <Button className = 'demo' variant='outlined'>Demo</Button>
             </div>
 
         </div>

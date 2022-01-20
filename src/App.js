@@ -6,6 +6,7 @@ import Home from './screens/Home'
 import Projects from './screens/Projects'
 import ScrollToTop from './components/ScrollToTop';
 import About from './screens/About'
+import Skills from './screens/Skills';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 <Header/>
       <Home/>
       <Projects/>
+      <Skills/>
       <About/>
 </div>
   )

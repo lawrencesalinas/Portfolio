@@ -1,23 +1,33 @@
-import React from 'react'
-import './Header.css'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./Header.css";
+import { Anchor } from "antd";
+const { Link } = Anchor;
 
 const Header = () => {
-    return(
-        <div className="header">
+  return (
+    <Anchor>
+      <div className="header">
         <header>
-            <nav>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/projects">My Projects</Link></li>
-                    <li><Link to="/blog">Blog</Link></li>
-                    <li><Link to="/about">About Me</Link></li>
-              
-                </ul>
-            </nav>
+          <nav>
+            <ul>
+              <li>
+                <Link href="#home" title="Home" />
+              </li>
+              <li>
+                <Link href="#projects" title="Projects" />
+              </li>
+              <li>
+                <Link href="#about" title="About" />
+              </li>
+              <li>
+                <Link href="#contact" title="Contact" />
+              </li>
+            </ul>
+          </nav>
         </header>
-        </div>
-    )
-}
+      </div>
+    </Anchor>
+  );
+};
 
-export default Header
+export default Header;

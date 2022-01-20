@@ -4,16 +4,17 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
 import Home from './screens/Home'
 import Projects from './screens/Projects'
+import ScrollToTop from './components/ScrollToTop';
+import About from './screens/About'
 
 function App() {
   return (
-<BrowserRouter>
+<div>
 <Header/>
-<Routes>
-  <Route path= '/projects'  element={<Projects/>}/>
-  <Route path= '/'  element={<Home/>}/>
-</Routes>
-</BrowserRouter>
+      <Home/>
+      <Projects/>
+      <About/>
+</div>
   )
 }
 

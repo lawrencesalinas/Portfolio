@@ -1,0 +1,27 @@
+.home{
+    width: 80%;
+    background-color: #001F54;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto ;
+
+}
+
+.home_info {
+    font-size: 3em;
+    margin-bottom: 100px;
+
+}
+
+.home_info > p{
+    margin-top: 30px;
+    font-size: .7em;
+}
+
+.home_info > button {
+    background-color: #edcf2e;
+}

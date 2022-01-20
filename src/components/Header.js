@@ -17,11 +17,15 @@ const Header = () => {
                 <Link href="#projects" title="Projects" />
               </li>
               <li>
+                <Link href="#skills" title="Skills" />
+              </li>
+              <li>
                 <Link href="#about" title="About" />
               </li>
               <li>
                 <Link href="#contact" title="Contact" />
               </li>
+
             </ul>
           </nav>
         </header>

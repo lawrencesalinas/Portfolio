@@ -20,6 +20,8 @@
 .home_info > p{
     margin-top: 30px;
     font-size: .7em;
+    font-weight: 300;
+    margin: 30px;
 }
 
 .home_info > button {

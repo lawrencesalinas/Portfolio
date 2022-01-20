@@ -9,7 +9,7 @@ import About from './screens/About'
 
 function App() {
   return (
-<div>
+<div className = 'app'>
 <Header/>
       <Home/>
       <Projects/>

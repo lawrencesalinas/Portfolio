@@ -1,11 +1,18 @@
 .projects{
     width: 90%;
     height: 100vh;
-    background-color: yellow;
+    background-color: white;
     width: 90%;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto ;
+    margin-top: 50px;
 }
+
+.projects_card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding:30px;
+}
+
+

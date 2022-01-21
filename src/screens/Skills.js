@@ -16,7 +16,6 @@ function Skills() {
         <i class="logo fab fa-css3-alt fa-5x"></i>
       </div>
       <div className="skills_logos2">
-      
         <img className="logo2" src="img/postgres.svg" />
         <img className="logo2" src="img/mongo.svg" />
         <img className="logo2" src="img/dj.svg" />

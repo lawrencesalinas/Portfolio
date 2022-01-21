@@ -4,5 +4,14 @@
     background-color: white;
     border: black solid 5px;
     margin: 0 auto;
-    
+}
+
+
+.about_info{
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 40vw;
+   border: black solid 10px;
+
 }

@@ -54,14 +54,14 @@
   margin: 4%;
 }
 
-.resume{
-  background-color: #e8dbfc;
+.skills > form > button{
+  background-color: #edcf2e;
   color: navy;
-  font-size: 1em;
+  font-size: 1.4em;
 border-radius:10px ;
 
 }
-.resume:hover{
+.skills > form >:hover{
   color: #e8dbfc;
   background-color:#00050E
 }

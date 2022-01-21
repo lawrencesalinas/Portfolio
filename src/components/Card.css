@@ -6,7 +6,10 @@
     transition: transfrom 100ms ease-in;
     cursor: pointer;
     min-width: 700px;
+    max-width: 700px;
     background-color: white;
+    max-height: 500px ;
+    min-height: 500px ;
 }
 
 #demo{
@@ -14,6 +17,7 @@
 }
 
 .card_info > button{
+    font-size: 1.2em;
     color: white;
     background-color: black;
    margin-left: 2%;
@@ -23,6 +27,7 @@
     
 }
 .card_info > .demo{
+   
     background-color: red;
     margin-right: 2%;
 }

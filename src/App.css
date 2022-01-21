@@ -1,6 +1,14 @@
 *{
   font-family: 'Montserrat', sans-serif;
 }
+ .app{
+
+ }
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -39,3 +47,5 @@
     transform: rotate(360deg);
   }
 }
+
+

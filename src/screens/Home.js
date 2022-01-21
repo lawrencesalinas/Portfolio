@@ -13,7 +13,7 @@ const HomePage = () => {
         <div className="home_info">
           <h2>Hello, I'm Lawrence</h2>
           <p>
-            I'm a web developer/software engineer driven to find opportunities
+            I'm a full stack web developer driven to find opportunities
             to grow
             <br /> and innovate solutions for the end-user.
           </p>

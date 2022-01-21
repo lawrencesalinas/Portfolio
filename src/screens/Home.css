@@ -1,5 +1,7 @@
 .home{
-    width: 100vw;
+    background-image: url(/public/img/circle.jpg);
+    background-size: cover;
+    width: 80vw;
     background-color: #001F54;
     color: white;
     height: 100vh;
@@ -26,4 +28,8 @@
 
 .home_info > button {
     background-color: #edcf2e;
+}
+
+a {
+    text-decoration: none !important; color: #000
 }

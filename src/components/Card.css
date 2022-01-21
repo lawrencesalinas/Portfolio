@@ -6,6 +6,7 @@
     transition: transfrom 100ms ease-in;
     cursor: pointer;
     min-width: 700px;
+    background-color: white;
 }
 
 #demo{

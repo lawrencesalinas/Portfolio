@@ -1,6 +1,8 @@
 .about{
-    width: 100%;
+    width: 80vw;
     height: 100vh;
     background-color: white;
-    margin-top: 200px;
+    border: black solid 5px;
+    margin: 0 auto;
+    
 }

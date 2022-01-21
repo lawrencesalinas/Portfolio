@@ -3,13 +3,65 @@
   width: 80vw;
   justify-content: center;
   align-items: center;
-  background-image: url("/public/img/ny.jpg");
+  background-image: url("/public/img/earth.jpg");
+  background-size: cover;
   margin: 0 auto;
   background-size: cover;
+  text-align: center;
+}
+
+.skills > h1 {
+  top: 90px;
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color: #e8dbfc;
 }
 
 .skills_logos{
-  position: absolute;
+  justify-content: center;
+  display: flex;
+  margin-top: 15%;
+  margin-left: 4%;
   font-size: 24px;
+  color: #e8dbfc
 }
 
+.logo{
+  margin: 50px;
+}
+
+.skills_logos > img{
+  color: white;
+}
+
+.logo2{
+  width: 250px;
+  max-height: 120px; 
+  margin: 20px;
+  transform: translateY(22px);
+  fill: white;
+  filter: invert(95%) sepia(59%) saturate(1928%) hue-rotate(182deg) brightness(103%) contrast(97%);
+}
+
+.skills_logos2{
+  justify-content: center;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 24px;
+  color: #e8dbfc;
+  margin: 4%;
+}
+
+.resume{
+  background-color: #e8dbfc;
+  color: navy;
+  font-size: 1em;
+border-radius:10px ;
+
+}
+.resume:hover{
+  color: #e8dbfc;
+  background-color:#00050E
+}

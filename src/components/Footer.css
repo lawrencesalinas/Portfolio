@@ -55,7 +55,7 @@ footer{
     color: #fff;
 }
 .socials a i{
-    font-size: 1.1rem;
+    font-size: 1.5em;
     transition: color .4s ease;
 
 }
@@ -79,3 +79,11 @@ footer{
     opacity: .4;
     font-weight: 200;
 } 
+
+
+@media screen and (max-width: 480px) {
+    .footer{
+     margin-top: 120px;
+    }  
+ 
+}

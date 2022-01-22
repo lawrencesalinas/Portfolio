@@ -2,7 +2,6 @@ import { Button } from "@mui/material";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import React from "react";
 import "./Home.css";
-import Projects from "./Projects";
 import About from "./About";
 import Header from "../components/Header";
 

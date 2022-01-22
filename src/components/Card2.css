@@ -38,3 +38,20 @@
     font-size: 1.4em;
     margin: 2%;
 }
+
+#demo:hover{
+    background-color: white;
+    color:red;
+}
+
+#github{
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 2%;
+}
+
+#github:hover{
+    background-color: white;
+    color:black;
+}

@@ -13,12 +13,13 @@ function Skills() {
       <h1>Skills</h1>
       <div className="skills_logos">
         <Row>
-        <Col xs={6} s={6} md={12} lg={12}>
+        <Col xs={12} s={12} md={12} lg={12}>
           <i class="logo fab fa-js fa-5x"></i>
           <i class="logo fab fa-python fa-5x"></i>
           <i class="logo fab fa-html5 fa-5x"></i>
           <i class="logo fab fa-node fa-5x"></i>
           <i class="logo fab fa-react fa-5x"></i>
+          <i class="logo fab fa-css3-alt fa-5x"></i>
    
         </Col>
           </Row>
@@ -27,12 +28,12 @@ function Skills() {
    
       <div className="skills_logos2">
       <Row>
-      <Col xs={6} s={6} m={3} lg={12}>
+      <Col xs={12} s={12} m={12} lg={12}>
         <img className="logo2" src="img/postgres.svg" />
         <img className="logo2" src="img/mongo.svg" />
         <img className="logo2" src="img/dj.svg" />
         <img className="logo2" src="img/express.svg" />
-        <i class="logo fab fa-css3-alt fa-5x"></i>
+    
         </Col>
         </Row>
        

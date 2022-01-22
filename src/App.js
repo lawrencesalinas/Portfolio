@@ -22,6 +22,7 @@ function App() {
       <Projects2 />
       <About/>
       <Skills/>
+      <Footer/>
   
    
       

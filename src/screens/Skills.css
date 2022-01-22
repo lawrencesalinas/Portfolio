@@ -1,9 +1,9 @@
 .skills {
-  height: 100vh;
+  height:65vh;
   width: 80vw;
   justify-content: center;
   align-items: center;
-  background-image: url("/public/img/earth.jpg");
+  /* background-image: url("/public/img/earth.jpg"); */
   background-size: cover;
   margin: 0 auto;
   background-size: cover;
@@ -15,16 +15,16 @@
   position: relative;
   text-align: center;
   font-size: 50px;
-  color: #e8dbfc;
+  color: #222E50;
 }
 
 .skills_logos{
   justify-content: center;
   display: flex;
-  margin-top: 15%;
+  margin-top: 4%;
   margin-left: 4%;
   font-size: 24px;
-  color: #e8dbfc
+  color:#222E50;
 }
 
 .logo{
@@ -40,8 +40,8 @@
   max-height: 120px; 
   margin: 20px;
   transform: translateY(22px);
-  fill: white;
-  filter: invert(95%) sepia(59%) saturate(1928%) hue-rotate(182deg) brightness(103%) contrast(97%);
+  fill: #222E50;
+  filter: invert(15%) sepia(7%) saturate(6169%) hue-rotate(190deg) brightness(91%) contrast(89%);
 }
 
 .skills_logos2{
@@ -50,15 +50,16 @@
   margin-top: 5%;
   margin-left: 4%;
   font-size: 24px;
-  color: #e8dbfc;
+  color: #222E50;
   margin: 4%;
 }
 
 .skills > form > button{
+  border-radius: 10px;
+  border: none;
   background-color: #edcf2e;
   color: navy;
   font-size: 1.4em;
-border-radius:10px ;
 
 }
 .skills > form >:hover{

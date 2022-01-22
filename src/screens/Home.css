@@ -1,7 +1,7 @@
 .home{
     background-image: url(/public/img/dark.jpeg);
     background-size: cover;
-    width: 80vw;
+    width: 80%;
     background-color: #2A3A3F;
     color: white;
     height: 100vh;
@@ -10,9 +10,9 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto ;
-    
-
+ 
 }
+
 
 .home_info {
     font-size: 3em;
@@ -34,3 +34,5 @@
 a {
     text-decoration: none !important; color: #000
 }
+
+

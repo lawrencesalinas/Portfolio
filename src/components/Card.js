@@ -11,13 +11,13 @@ function Card({ src, title, description, tech, git, demo }) {
         <h4>{description}</h4>
         <h4>{tech}</h4>
 
-       <a href ={git} >
-        <Button variant="outlined" target="_blank" type="submit">
+       <a href ={git} target="_blank">
+        <Button variant="outlined"  type="submit">
           Github
         </Button>
         </a>
-        <a href = {demo}>
-        <Button className="demo" target="_blank" variant="outlined">
+        <a href = {demo} target="_blank">
+        <Button className="demo"  variant="outlined">
           Demo
         </Button>
         </a>

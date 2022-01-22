@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./screens/Home";
 import Projects from "./screens/Projects";
-import ScrollToTop from "./components/ScrollToTop";
 import About from "./screens/About";
 import Skills from "./screens/Skills";
+import Contact from "./screens/Contact";
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -14,8 +14,11 @@ function App() {
       <Header />
       <Home />
       <Projects />
-      <Skills />
       <About />
+      <Skills />
+      <Footer/>
+     
+ 
     </div>
   );
 }

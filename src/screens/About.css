@@ -1,7 +1,6 @@
 .about{
-    width: 48vw;
-    height: 40vh;
-    background-color: white;
+    margin-top: 1000px;
+    /* background-color: white;
     border-top: none;
     margin: 0 auto;
     margin-top: 8%;
@@ -12,13 +11,13 @@
     box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
     transition: transfrom 100ms ease-in;
     cursor: pointer;
-    background-color: white;
+    background-color: white; */
 
 }
 
 
 
-.about_info{
+/* .about_info{
     position: relative;
     font-weight: 500;
     font-size: 25px;
@@ -26,4 +25,4 @@
     margin-left: 9%;
     width: 40vw;
     top:3%
-}
+} */

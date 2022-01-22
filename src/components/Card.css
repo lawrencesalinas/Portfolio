@@ -10,6 +10,9 @@
     background-color: white;
     max-height: 500px ;
     min-height: 500px ;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 #demo{
@@ -53,6 +56,9 @@
   }
 
   .card_info{
+justify-content: ;
+    align-items: center;
+    margin: 0 auto;
       margin-top: -9px;
       border-radius: 10px;
       padding: 20px;

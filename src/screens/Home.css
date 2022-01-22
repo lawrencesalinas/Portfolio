@@ -1,38 +1,47 @@
-.home{
-    background-image: url(/public/img/dark.jpeg);
-    background-size: cover;
-    width: 80%;
-    background-color: #2A3A3F;
-    color: white;
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto ;
- 
+.home {
+  background-image: url(/public/img/white.png);
+  width: 80vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  color: black;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #intro {
+    margin-top: -58.59px;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
 
 .home_info {
-    font-size: 3em;
-    margin-bottom: 100px;
-
+  font-size: 3em;
+  margin-bottom: 100px;
 }
 
-.home_info > p{
-    margin-top: 30px;
-    font-size: .7em;
-    font-weight: 300;
-    margin: 30px;
+.home_info > p {
+  margin-top: 30px;
+  font-size: 0.4em;
+  font-weight: 300;
+  margin: 30px;
 }
 
 .home_info > button {
-    background-color: #edcf2e;
+  background-color: #edcf2e;
 }
 
 a {
-    text-decoration: none !important; color: #000
+  text-decoration: none !important;
+  color: #000;
 }
-
-

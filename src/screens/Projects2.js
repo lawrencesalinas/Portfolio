@@ -5,11 +5,11 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Projects = () => {
     return (
-  <Container fluid>
-        <div class className = 'projects' id= 'projects'>
+
+        <div  className = 'projects mb-20'  id= 'projects'>
         <h1>My Projects</h1>
    <Row>
-     <Col>
+     <Col  md={6}xs={12} l={6} xl={6}>
         <Card2
                 src="img/help.png"
                 title="Helping Hand"
@@ -20,7 +20,7 @@ const Projects = () => {
             />
             </Col>
             
-         <Col>
+            <Col  md={6}xs={12} l={6} xl={6}>
                 <Card2
                 src="img/sir.png"
                 title="Airbnb react clone"
@@ -34,7 +34,8 @@ const Projects = () => {
             
        
          
-                       
+                  <Row>
+                  <Col  md={6}xs={12} l={6} xl={6}>
                <Card2
                 src="img/food.png"
                 title="Pocket Food Vault"
@@ -44,7 +45,8 @@ const Projects = () => {
                  git="https://github.com/lawrencesalinas/Pocket-Food-Vault"
                  demo="https://pocket-food-vault.herokuapp.com/"
             />
-
+            </Col>
+            <Col  md={6}xs={12} l={6} xl={6}>
                <Card2
                  src="img/tictac.png"
                 title="tic-tac-toe"
@@ -53,8 +55,11 @@ const Projects = () => {
                 git=""
                 demo=""
             />
-       
-            <div className ='projects_card'>
+            </Col>
+
+            </Row>
+       <Row>
+       <Col  md={6}xs={12} l={6} xl={6}>
               <Card2
                 src=''
                 title="Online Experiences"
@@ -62,6 +67,8 @@ const Projects = () => {
                 git=""
                 demo=""
             />
+            </Col>
+            <Col  md={6}xs={12} l={6} xl={6}>
                 <Card2
                 src="img/castle.png"
                 title="Protect the castle"
@@ -70,10 +77,10 @@ const Projects = () => {
                 git="https://github.com/lawrencesalinas/Protect-the-castle"
                 demo="https://lawrencesalinas.github.io/Protect-the-castle/"
             />
-            </div>
+            </Col>
+      </Row>
         </div>
      
-        </Container>
     )
 }
 

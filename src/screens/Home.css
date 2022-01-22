@@ -11,21 +11,24 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+
 }
 
 
 /* Height for devices larger than 576px */
-@media (min-width: 992px) {
-  #intro {
-    margin-top: -58.59px;
-  }
-}
+/* @media screen and (max-width: 480px) {
+    .home{
+  width:100vw;
+    }  
+  } */
+  
 
 .navbar .nav-link {
   color: #fff !important;
 }
 
 .home_info {
+    font-weight: bolder;
   font-size: 3em;
   margin-bottom: 100px;
 }
@@ -33,7 +36,7 @@
 .home_info > p {
   margin-top: 30px;
   font-size: 0.4em;
-  font-weight: 300;
+  font-weight: bolder;
   margin: 30px;
 }
 

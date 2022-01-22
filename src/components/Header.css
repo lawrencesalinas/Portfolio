@@ -1,25 +1,22 @@
 .header {
-   
   width: 80vw;
   margin: 0 auto;
 }
-ul{
-    display: flex;
-    justify-content: center;
-    justify-content: right;
- margin:0 auto;
-  }
-  
-  li a {
-      font-weight: 600;
-    font-size: 20px;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
+ul {
+  display: flex;
+  margin: 0 auto;
+}
 
-  li a:hover {
+li a {
+  font-weight: 600;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  }
+li a:hover {
+  color: darkgrey;
+}
+

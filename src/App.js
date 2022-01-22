@@ -21,7 +21,9 @@ function App() {
       <Home />
       <Projects2 />
       <About/>
- 
+      <Skills/>
+  
+   
       
     </div>
   );

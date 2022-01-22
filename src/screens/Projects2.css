@@ -6,10 +6,24 @@
     background-color: white;
     text-align: center;
     margin: 0 auto ;
-    margin-bottom: 1000px;
+    margin-bottom: 560px;
     border-bottom: none;
 }
 
 h1{
     font-weight: bolder;
+}
+
+@media screen and (max-width: 480px) {
+    .projects{
+     margin-bottom: 1800px;
+    }  
+ 
+}
+
+@media screen and (max-width: 375px) {
+    .projects{
+     margin-bottom: 2000px;
+    }  
+ 
 }

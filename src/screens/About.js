@@ -1,19 +1,17 @@
 import React from "react";
 import { Row, Col, Container, Card } from "react-bootstrap";
 import "./About.css";
+import Skills from "./Skills";
 
 const About = () => {
   return (
-    <Container>
-      <Row>
-    <div className="about" id="about">
 
 
-
+        <div className="about" id="about">
           <div className="about_info">
             <h1>About Me</h1>
             <br></br>
-            
+
             <p className="about_p">
               Cafe restaurant manager turned full stack developer who is driven
               and enjoys the challenge of finding efficient solutions to
@@ -28,10 +26,9 @@ const About = () => {
               the journey it takes to overcome them.
             </p>
           </div>
-       
-    </div>
-    </Row>
-    </Container>
+        </div>
+    
+    
   );
 };
 

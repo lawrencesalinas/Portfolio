@@ -59,10 +59,25 @@
   border: none;
   background-color: #edcf2e;
   color: navy;
-  font-size: 1.4em;
+  font-size: 1.0em;
 
 }
 .skills > form >:hover{
   color: #e8dbfc;
   background-color:#00050E
+}
+
+
+@media screen and (max-width: 480px) {
+  .skills_logos{
+    font-size: 1em;
+   
+  }  
+  .logos2{
+   
+    width: 200px;
+  max-height: 120px; 
+  margin: 20px;
+  }  
+
 }

@@ -9,7 +9,7 @@ const Projects = () => {
         <div  className = 'projects mb-20'  id= 'projects'>
         <h1>My Projects</h1>
    <Row>
-     <Col  md={6}xs={12} l={6} xl={6}>
+     <Col  md={4}xs={12} l={4} xl={4}>
         <Card2
                 src="img/help.png"
                 title="Helping Hand"
@@ -20,7 +20,7 @@ const Projects = () => {
             />
             </Col>
             
-            <Col  md={6}xs={12} l={6} xl={6}>
+            <Col  md={4}xs={12} l={4} xl={4}>
                 <Card2
                 src="img/sir.png"
                 title="Airbnb react clone"
@@ -30,12 +30,7 @@ const Projects = () => {
                 demo=""
             />
             </Col>
-            </Row>
-            
-       
-         
-                  <Row>
-                  <Col  md={6}xs={12} l={6} xl={6}>
+                  <Col  md={4}xs={12} l={4} xl={4}>
                <Card2
                 src="img/food.png"
                 title="Pocket Food Vault"
@@ -46,7 +41,9 @@ const Projects = () => {
                  demo="https://pocket-food-vault.herokuapp.com/"
             />
             </Col>
-            <Col  md={6}xs={12} l={6} xl={6}>
+            </Row>
+            <Row>
+            <Col  md={4}xs={12} l={4} xl={4}>
                <Card2
                  src="img/tictac.png"
                 title="tic-tac-toe"
@@ -57,9 +54,7 @@ const Projects = () => {
             />
             </Col>
 
-            </Row>
-       <Row>
-       <Col  md={6}xs={12} l={6} xl={6}>
+       <Col  md={4}xs={12} l={4} xl={4}>
               <Card2
                 src=''
                 title="Online Experiences"
@@ -68,7 +63,7 @@ const Projects = () => {
                 demo=""
             />
             </Col>
-            <Col  md={6}xs={12} l={6} xl={6}>
+            <Col  md={4}xs={12} l={4} xl={4}>
                 <Card2
                 src="img/castle.png"
                 title="Protect the castle"

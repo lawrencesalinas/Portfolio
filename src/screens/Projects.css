@@ -1,12 +1,12 @@
 .projects{
     padding-top: 100px;
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
     background-color: white;
     text-align: center;
     margin: 0 auto ;
+    margin-bottom: 20%;
     padding-bottom: 35%;
-
     border-bottom: none;
 
 }

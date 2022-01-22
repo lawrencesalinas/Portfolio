@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css'
-import Card from '../components/Card'
+import Card2 from '../components/Card2'
 
 
 const Projects = () => {
@@ -10,7 +10,7 @@ const Projects = () => {
         <h1>My Projects</h1>
         <div className ='projects_card'>
      
-        <Card
+        <Card2
                 src="img/help.png"
                 title="Helping Hand"
                 description="Helping Hand connects the community with the ability to list their goods for the community"
@@ -21,7 +21,7 @@ const Projects = () => {
             
             
          
-                <Card
+                <Card2
                 src="img/sir.png"
                 title="Airbnb react clone"
                 description="A personal Airbnb clone prject to enhance my skills in React and css, backend implemantation is on the works."
@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
             <div className ='projects_card'>
                        
-               <Card
+               <Card2
                 src="img/food.png"
                 title="Pocket Food Vault"
                 description="Food Pocket Vault is a restaurant search tool info provider especially for the food lover. it gives users abundant information and pricing on the go and also allows the user
@@ -42,7 +42,7 @@ const Projects = () => {
                  demo="https://pocket-food-vault.herokuapp.com/"
             />
 
-               <Card
+               <Card2
                  src="img/tictac.png"
                 title="tic-tac-toe"
                 description="The classic tic-tac-toe game that everybody loves."
@@ -52,14 +52,14 @@ const Projects = () => {
             />
             </div>
             <div className ='projects_card'>
-              <Card
+              <Card2
                 src=''
                 title="Online Experiences"
                 description="Unique activities we can do together, led by a world of hosts."
                 git=""
                 demo=""
             />
-                <Card
+                <Card2
                 src="img/castle.png"
                 title="Protect the castle"
                 description="Protect the castle is a  2d competitive shooting game played by two opposing sides"

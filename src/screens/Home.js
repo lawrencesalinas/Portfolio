@@ -8,7 +8,7 @@ import Header from "../components/Header";
 const HomePage = () => {
   return (
 
-      <Card.Body>
+
         <div className="home" id="home">
           <div className="home_info">
             <h1>Hi, I'm Lawrence</h1>
@@ -22,7 +22,7 @@ const HomePage = () => {
             <Button>CHECK OUT MY GITHUB</Button>
           </div>
         </div>
-      </Card.Body>
+      
     
   );
 };

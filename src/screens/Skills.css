@@ -1,5 +1,5 @@
 .skills {
-  height:65vh;
+  height: 65vh;
   width: 80vw;
   justify-content: center;
   align-items: center;
@@ -12,80 +12,84 @@
 }
 
 .skills > h1 {
-  top: 90px;
+  top: 20px;
   position: relative;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   color: gray;
 }
 
-.skills_logos{
+.skills_logos {
   justify-content: center;
   display: flex;
-  margin-top: 4%;
   margin-left: 4%;
-  font-size: 24px;
-  color:#222E50;
+  font-size: 1em;
+  color: #222e50;
 }
 
-.logo{
-  margin: 50px;
+.logo {
+  margin: 35px;
 }
 
-.skills_logos > img{
+.skills_logos > img {
   color: white;
 }
 
-.logo2{
-  width: 250px;
-  max-height: 120px; 
-  margin: 20px;
+.logo2 {
+  width: 200px;
+  max-height: 100px;
   transform: translateY(22px);
-  fill: #222E50;
-  filter: invert(15%) sepia(7%) saturate(6169%) hue-rotate(190deg) brightness(91%) contrast(89%);
+  fill: #222e50;
+  filter: invert(15%) sepia(7%) saturate(6169%) hue-rotate(190deg)
+    brightness(91%) contrast(89%);
 }
 
-.skills_logos2{
+.skills_logos2 {
   justify-content: center;
   display: flex;
-  margin-top: 5%;
-  margin-left: 4%;
   font-size: 24px;
-  color: #222E50;
-  margin: 4%;
+  color: #222e50;
 }
 
-.skills > form > button{
+.skills > form > button {
   border-radius: 10px;
   border: none;
   background-color: #edcf2e;
   color: navy;
-  font-size: 1.0em;
-
+  font-size: 1em;
 }
-.skills > form >:hover{
+.skills > form > :hover {
   color: #e8dbfc;
-  background-color:#00050E
+  background-color: #00050e;
 }
-
 
 @media screen and (max-width: 480px) {
-  .skills_logos{
+  .skills_logos {
     margin-top: 50px;
     font-size: 1em;
-   
-  }  
-  .logo2{
-   
-    width: 100px;
-  max-height: 90px; 
-  margin: 20px;
-  }  
-  .skills > h1 {
-   
-    font-size: 2em;
-    
   }
-
+  .logo2 {
+    width: 100px;
+    max-height: 90px;
+    margin: 20px;
+  }
+  .skills > h1 {
+    font-size: 2em;
+  }
 }
 
+#resume {
+  margin-top: 2%;
+  font-size: large;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#resume:hover {
+  background-color: black;
+  color: yellow;
+}
+
+#about_p{
+  margin-top: 2%;
+}

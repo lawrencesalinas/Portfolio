@@ -17,10 +17,11 @@ function App() {
 
  
      
-      <Header />
+  
       <Home />
-      <Projects2 />
       <About/>
+      <Projects2 />
+
       <Skills/>
       <Footer/>
   

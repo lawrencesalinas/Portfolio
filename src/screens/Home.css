@@ -1,17 +1,19 @@
 .home {
-  background-image: url(/public/img/white.png);
-  width: 80vw;
+  background-image: url(/public/img/bridge.jpg);
+  width: 100%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: white;
-  color: gray;
+  color: white;
   height: 100vh;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-
+}
+.home_info > h1{
+  font-size: 2.5em;
 }
 
 
@@ -29,19 +31,25 @@
 
 .home_info {
     font-weight: bolder;
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 100px;
 }
 
 .home_info > p {
   margin-top: 30px;
-  font-size: 0.4em;
+  font-size:.8em;
   font-weight: bolder;
   margin: 30px;
 }
 
 .home_info > button {
-  background-color: #edcf2e;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+.home_info > button:hover {
+  background-color: white;
+  color:black;
 }
 
 a {

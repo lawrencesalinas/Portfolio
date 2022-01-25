@@ -1,14 +1,17 @@
 .projects{
+  
+    background-color: #DCC9B6;
     border: 10px solid 2px;
     padding-top: 100px;
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
     color: gray;
-    background-color: white;
+    /* background-color: white; */
     text-align: center;
     margin: 0 auto ;
-    margin-bottom: 560px;
+
     border-bottom: none;
+
 }
 
 h1{
@@ -17,14 +20,14 @@ h1{
 
 @media screen and (max-width: 480px) {
     .projects{
-     margin-bottom: 1800px;
+     margin-bottom: 650px;
     }  
  
 }
 
 @media screen and (max-width: 375px) {
     .projects{
-     margin-bottom: 2000px;
+     margin-bottom: 550px;
     }  
  
 }

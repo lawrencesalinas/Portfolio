@@ -1,7 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button } from "@mui/material";
+import { Button } from "react-bootstrap"
 import { Container,Row, Col } from "react-bootstrap";
 
 function Skills() {
@@ -39,9 +38,12 @@ function Skills() {
        
       </div>
 
-      <form action ="#home">
-      <Button className='resume' variant="outlined" target="_blank" type="submit">Check out my resume</Button>
-      </form>
+        <a href ="img/resume.pdf" target="_blank">
+      <Button id='resume' variant="warning"
+      >Check out my resume</Button>
+      </a>
+      <p id = 'about_p'>I am currentlyworking on projects to keep</p>
+      
     </div>
  
     </Row>

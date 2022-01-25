@@ -6,7 +6,7 @@ import Skills from "./Skills";
 const About = () => {
   return (
 
-
+<Card className = 'mx-auto card'>
         <div className="about" id="about">
           <div className="about_info">
             <h1>About Me</h1>
@@ -27,7 +27,7 @@ const About = () => {
             </p>
           </div>
         </div>
-    
+        </Card>
     
   );
 };

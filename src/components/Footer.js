@@ -12,9 +12,9 @@ function Footer() {
           <h4>Lawrencesalinas7@gmail.com</h4>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
           <ul class="socials">
-              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#"><i class="fa fa-github"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+              <li><a href="lawrencesalinas@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="https://github.com/lawrencesalinas"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/lawrencesalinas/"><i class="fa fa-linkedin-square"></i></a></li>
           </ul>
       </div>
       <div class="footer-bottom">

@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Projects = () => {
     return (
-
+<div>
         <div  className = 'projects mb-20'  id= 'projects'>
         <h1>My Projects</h1>
    <Row>
@@ -42,7 +42,10 @@ const Projects = () => {
             />
             </Col>
             </Row>
+            </div>
+         <div  className = 'projects mb-20'  id= 'projects'>
             <Row>
+                
             <Col  md={4}xs={12} l={4} xl={4}>
                <Card2
                  src="img/tictac.png"
@@ -73,9 +76,10 @@ const Projects = () => {
                 demo="https://lawrencesalinas.github.io/Protect-the-castle/"
             />
             </Col>
+          
       </Row>
         </div>
-     
+        </div>
     )
 }
 

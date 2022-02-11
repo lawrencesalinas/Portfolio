@@ -42,12 +42,12 @@
   margin: 30px;
 }
 
-.home_info > button {
+#button{
   color: white;
   background-color: black;
   border-radius: 10px;
 }
-.home_info > button:hover {
+#button:hover {
   background-color: white;
   color:black;
 }

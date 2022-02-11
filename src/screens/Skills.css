@@ -1,6 +1,10 @@
 .skills {
+  background-image: url(/public/img/bulb.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 65vh;
-  width: 80vw;
+  width: 100vw;
   justify-content: center;
   align-items: center;
   /* background-image: url("/public/img/earth.jpg"); */
@@ -8,27 +12,29 @@
   margin: 0 auto;
   background-size: cover;
   text-align: center;
-  margin-bottom: 300px;
+
 }
 
 .skills > h1 {
+
   top: 20px;
   position: relative;
   text-align: center;
   font-size: 2em;
-  color: gray;
+  color: #FDFFFC;
 }
 
 .skills_logos {
   justify-content: center;
   display: flex;
   margin-left: 4%;
-  font-size: 1em;
-  color: #222e50;
+  font-size: .5em;
+  color: #FDFFFC;
+  margin-top: 5%;
 }
 
 .logo {
-  margin: 35px;
+  margin: 20px;
 }
 
 .skills_logos > img {
@@ -36,26 +42,25 @@
 }
 
 .logo2 {
-  width: 200px;
-  max-height: 100px;
+  width: 100px;
+  max-height: 70px;
   transform: translateY(22px);
-  fill: #222e50;
-  filter: invert(15%) sepia(7%) saturate(6169%) hue-rotate(190deg)
-    brightness(91%) contrast(89%);
+  fill: #FDFFFC;
+  filter: invert(94%) sepia(25%) saturate(232%) hue-rotate(347deg) brightness(108%) contrast(117%)
 }
 
 .skills_logos2 {
   justify-content: center;
   display: flex;
   font-size: 24px;
-  color: #222e50;
+  color: white;
 }
 
 .skills > form > button {
   border-radius: 10px;
   border: none;
   background-color: #edcf2e;
-  color: navy;
+  color: black;
   font-size: 1em;
 }
 .skills > form > :hover {
@@ -91,5 +96,10 @@
 }
 
 #about_p{
+  color:white;
   margin-top: 2%;
 }
+
+.resume_info{
+  margin-top: 10%;
+} 

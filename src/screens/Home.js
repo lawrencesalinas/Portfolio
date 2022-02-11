@@ -1,5 +1,5 @@
-import { Button } from "@mui/material";
-import { Container, Row, Col, Card } from "react-bootstrap";
+
+import { Container, Row, Col, Card,Button } from "react-bootstrap";
 import React from "react";
 import "./Home.css";
 import About from "./About";
@@ -19,7 +19,8 @@ const HomePage = () => {
                 <br /> and innovate solutions for the end-user.
               </p>
             </Card.Text>
-            <Button>CHECK OUT MY GITHUB</Button>
+            <a href = "https://github.com/lawrencesalinas" target="_blank">
+            <Button id='button' variant ='dark'>CHECK OUT MY GITHUB</Button></a>
           </div>
         </div>
       

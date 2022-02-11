@@ -1,11 +1,10 @@
 .projects{
-  
-    background-color: #DCC9B6;
-    border: 10px solid 2px;
+    /* background-color: #DCC9B6; */
+   
     padding-top: 100px;
     width: 100vw;
     height: 100vh;
-    color: gray;
+    color: black;
     /* background-color: white; */
     text-align: center;
     margin: 0 auto ;

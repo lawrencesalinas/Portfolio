@@ -16,6 +16,7 @@ function Card2({ src, title, description, tech, git, demo }) {
     </Card.Title>
     <Card.Text>
     <p>{description}</p>
+    <h6>{tech}</h6>
     </Card.Text> 
     <a href ={git} target="_blank">
    <Button id ='github'variant="dark">Github</Button>
